@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header {
+    width: 100%;
+    background-color: #EE534F;
+    padding: 8px 30px;
+}
+
+.header h5 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* upper-btn-box */
+
+.upper-btn-box {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    padding: 20px;
+}
+
+.upper-btn-box .left-box {
+    width: 50%;
+    height: 100%;
+}
+
+.upper-btn-box .right-box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+
+.upper-btn-box .left-box button {
+    border: none;
+    outline: none;
+    background-color: #4286F5;
+    padding: 8px;
+    color: white;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.upper-btn-box .right-box i {
+    color: #4286F5;
+    font-size: 28px;
+    margin: 5px 15px;
+    cursor: pointer;
+}
+
+.upper-btn-box .right-box input {
+    width: 70%;
+    padding: 0px 6px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+}
+
+.upper-btn-box .right-box input::placeholder {
+    font-size: 16px;
+}
+
+.upper-btn-box .right-box button {
+    border: none;
+    outline: none;
+    background-color: #EE534F;
+    padding: 8px;
+    color: white;
+    margin: 0px 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100px;
+    height: 40px;
+
+}
+
+/* table sytle  */
+
+.table-box {
+    width: 100%;
+}
+
+.table-box table {
+    width: 100%;
+}
+
+.table-box table tr th {
+    border-right: 1px solid lightgray;
+    padding: 30px 0px 0px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-box table tr td {
+    text-align: center;
+    border-right: 1px solid lightgray;
+    padding: 30px 0px 8px;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table-box table tr td .view-icon {
+    width: 35%;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 0px 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #4286F5;
+}
+
+.table-box table tr td .delete-icon {
+    width: 35%;
+    border: none;
+    outline: none;
+    color: white;
+    margin: 0px 5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px;
+    background-color: #EE534F;
+
+}
+
+.model{
+    width: 60%;
+    height: 500px;
+    background-color: aqua;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: fixed;
+}
+
+.model .left-model{
+    width: 30%;
+    height: 100%;
+    background-color: red;
+}
